@@ -1,7 +1,7 @@
 import telebot
 import google.generativeai as genai
-bot = telebot.TeleBot("6736012710:AAHAPDiMlU91baWlRjVzA0pA091VQcqdg2s", parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
-genai.configure(api_key="AIzaSyCyNiHkOk9S5Us6oe4uUgEqIysUAyoCnVk")
+bot = telebot.TeleBot("api-token", parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
+genai.configure(api_key="api-token")
 
 # Set up the model
 generation_config = {
